@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417104798866",
+    "firebase_url": "https://crimnotics-app.firebaseio.com",
+    "project_id": "crimnotics-app",
+    "storage_bucket": "crimnotics-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417104798866:android:d824313965d8600f50724b",
+        "android_client_info": {
+          "package_name": "com.example.crimnoticsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417104798866-ovskf8c9uprntnamk3sa3l6dnn1ln0ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sCfQ6Mw6D9VPn8qa8i_Ono6b1NR4_yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417104798866-ovskf8c9uprntnamk3sa3l6dnn1ln0ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

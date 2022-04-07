@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterScreens.RegConfirm"
+    android:background="@drawable/dashboard"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Completed"
+        android:fontFamily="@font/bungee"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/tickmark"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/antic"
+        android:text="A Verification Link Has Been Sent To                                      Your Email Address"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:onClick="gotoLogin"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Crimnotics App</string>
+    <string name="ivalid_name">Enter Only Characters</string>
+    <string name="ivalid_contact">Enter Valid 10 Digit Contact Number</string>
+    <string name="ivalid_gender">Select Gender Choice</string>
+    <string name="ivalid_email">Enter Valid Email Address</string>
+    <string name="ivalid_aadhar">Enter Valid 12 Digit Aadhar Number</string>
+    <string name="ivalid_username">Enter Valid Username</string>
+    <string name="ivalid_password">Enter a Minimum 6 Letter Password</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_drawer2">drawer2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_age">Enter Age</string>
+    <string name="invalid_height">Enter Height</string>
+    <string name="ivalid_lastSeen">"Enter The Last Seen "</string>
+    <string name="ivalid_area">Enter Area / Location</string>
+    <string name="ivalid_desc">Enter Description</string>
+    <string name="ivalid_CISFNo">Enter Valid CISF Number</string>
+    <string name="ivalid_Parea">Enter Valid Police Station Area</string>
+
+</resources>

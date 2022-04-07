@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/admin_nav_home"
+            android:icon="@drawable/home1"
+            android:title="Home" />
+
+    </group>
+
+
+
+    <item android:title="Reports">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/admin_nav_not_acknowledged"
+                    android:title="Not Acknowledged Cases"
+                    android:icon="@drawable/unseen"
+                    />
+
+                <item
+                    android:id="@+id/admin_nav_acknowledged"
+                    android:title="Acknowledged Cases"
+                    android:icon="@drawable/acknowledge"
+                    />
+
+                <item
+                    android:id="@+id/admin_nav_underProgress"
+                    android:title="Under Progress Cases"
+                    android:icon="@drawable/underprogress"
+                    />
+
+                <item
+                    android:id="@+id/admin_nav_completed"
+                    android:title="Completed Cases"
+                    android:icon="@drawable/completed"
+                    />
+
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/admin_nav_logout"
+                    android:title="Signout"
+                    android:icon="@drawable/logout"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

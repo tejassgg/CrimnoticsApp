@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home1"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/crimealert1"
+            android:title="Report Crime" />
+        <item
+            android:id="@+id/nav_fileComplaint"
+            android:icon="@drawable/complaint1"
+            android:title="File Complaint" />
+        <item
+            android:id="@+id/nav_missingPerson"
+            android:icon="@drawable/missperson1"
+            android:title="Missing Person" />
+
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/ic_sos1"
+            android:title="SOS" />
+        <item
+            android:id="@+id/nav_listOfCrime"
+            android:icon="@drawable/list1"
+            android:title="Your Reports" />
+    </group>
+
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item
+        android:title="Communicate">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/share"/>
+                <item
+                    android:id="@+id/nav_contact"
+                    android:title="Contact Us"
+                    android:icon="@drawable/customercare"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

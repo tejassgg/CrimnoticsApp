@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crimnoticsapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Admin.AdminCompleted"
+            android:label=" "></activity>
+        <activity
+            android:name=".Admin.AdminUnderProgress"
+            android:label=" "/>
+        <activity
+            android:name=".Admin.AdminAcknowledged"
+            android:label=" " />
+        <activity
+            android:name=".Admin.AdminNotAcknowledged"
+            android:label=" " />
+        <activity android:name=".test" />
+        <activity
+            android:name=".MainActivity2"
+            android:label=" " />
+        <activity
+            android:name=".Admin.AdminSignUp"
+            android:label=" " />
+        <activity
+            android:name=".Admin.AdminDashboard"
+            android:label=" " />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:label=" " />
+        <activity
+            android:name=".AfterScreens.AfterMissingPerson"
+            android:label=" " />
+        <activity
+            android:name=".AfterScreens.AfterCrimeReport"
+            android:label=" " />
+        <activity
+            android:name=".BasicActivities.ForgotPassword"
+            android:label=" " />
+        <activity
+            android:name=".BasicActivities.Profile"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.FileComplaint"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.ReportCrime"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.ListOfCrime"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.SOS"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.MissingPerson"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.header"
+            android:label=" " />
+        <activity
+            android:name=".AfterScreens.RegConfirm"
+            android:label=" " />
+        <activity
+            android:name=".BasicActivities.SignUp"
+            android:label=" " />
+        <activity
+            android:name=".DashboardFiles.Dashboard"
+            android:label=" " />
+        <activity android:name=".BasicActivities.Login" />
+        <activity android:name=".BasicActivities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
